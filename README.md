@@ -12,7 +12,7 @@ We use deep learning to identify which type of vehicle is entering a parking lot
 <img src="Images/1040.jpg" alt="1040th" width="400"/>  <img src="Images/1070.jpg" alt="1070th" width="400"/>
 
 4. Applied Feature Matching Technique by OpenCV on these two images. (In this step I found that most of the matched features were of the stationary background as can be seen in image with name "original_image_drawMatches")
-<img src="original_image_1_keypoints.jpg" alt="original_image_1_keypoints" width="400"/>  <img src="original_image_2_keypoints.jpg" alt="original_image_2_keypoints" width="400"/>
+ <img src="original_image_1_keypoints.jpg" alt="original_image_1_keypoints" width="400"/>  <img src="original_image_2_keypoints.jpg" alt="original_image_2_keypoints" width="400"/>
 <img src="original_image_drawMatches.jpg" alt="original_image_drawMatches" width="800"/> 
 
 5. Applied OpenCv's optical flow algorithm to mask the moving truck only. (In this step I was not able to perfectly mask the movement of the truck as can be seen in the images in the "Masked_image_of_moving_vehicle" folder)
