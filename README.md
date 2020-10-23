@@ -26,8 +26,10 @@ We use deep learning to identify which type of vehicle is entering a parking lot
 <img src="masked_image_drawMatches.jpg" alt="masked_image_drawMatches" width="800"/> 
 
 8. Applied Opencv's stiching algorithm on all possible continous combinations of these 21 images. (These images can be found in the "Output" folder)
+<img src="Output/7_12.jpg" alt="Output" height="1280" width="720"/> 
 
 9. Cropped and resize the images.
+<img src="Clean_output_images/6_12.jpg" alt="Clean_output_images" height="1280" width="720"/> 
 
 10. After this step some of the images showed Good results. (These images can be found in the "Clean_output_images" folder)
 
