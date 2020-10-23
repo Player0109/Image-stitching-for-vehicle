@@ -1,9 +1,9 @@
-**Task: Image-stitching-for-vehicle**
+# Task: Image-stitching-for-vehicle
 
-**Task Description:**
+## Task Description:
 We use deep learning to identify which type of vehicle is entering a parking lot or crossing a toll and charge based on that. Often the camera is too close to vehicle to get a full picture of the vehicle in single shot, especially for large trucks. From a video of vehicle passing, use image stitching techniques to extract and stitch portions from video to construct full image of vehicle.
 
-**Procedure :**
+## Procedure :
 1. Splited the video into images frame by frame. (In this step I got 3600 images)
 
 2. Took the images in which the truck was moving. (Images from 950 to 1200)
@@ -26,7 +26,7 @@ We use deep learning to identify which type of vehicle is entering a parking lot
 <img src="masked_image_drawMatches.jpg" alt="masked_image_drawMatches" width="800"/> 
 
 8. Applied Opencv's stiching algorithm on all possible continous combinations of these 21 images. (These images can be found in the "Output" folder)
-<img src="Output/7_12.jpg" alt="Output"width="800"/> 
+<img src="Output/7_12.jpg" alt="Output" width="800"/> 
 
 9. Cropped and resize the images.
 <img src="Clean_output_images/6_12.jpg" alt="Clean_output_images" width="800"/> 
