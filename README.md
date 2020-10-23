@@ -7,7 +7,7 @@ We use deep learning to identify which type of vehicle is entering a parking lot
 1. Splited the video into images frame by frame. (In this step I got 3600 images)
 2. Took the images in which the truck was moving. (Images from 950 to 1200)
 3. Took two images in which the truck was moving. (I took 1040th and 1070th picture)
-![1040th](/Images/1040.jpg=250px)  ![1070th](Images/1070.jpg=250px)
+<img src="Images/1040.jpg" alt="1040th" width="250"/>  ![1070th](Images/1070.jpg=250px)
 4. Applied Feature Matching Technique by OpenCV on these two images. (In this step I found that most of the matched features were of the stationary background as can be seen in image with name "original_image_drawMatches")
 5. Applied OpenCv's optical flow algorithm to mask the moving truck only. (In this step I was not able to perfectly mask the movement of the truck as can be seen in the images in the "Masked_image_of_moving_vehicle" folder)
 6. Manually masked 21 images from 1000 to 1200 with an interval of 10.
